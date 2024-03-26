@@ -1,0 +1,104 @@
+/*! Fichier CSS apportant des modifications à la templates initiales */
+    /*! Fichier CSS "timeline" a été ajouté par la suite */
+
+
+/*! Modification texte */
+h1, h2, h3, h6{
+    font-family: Bahnschrift;
+}
+
+span{
+    font-family: Calibri;
+}
+
+.navbar, .text-slider{
+    font-family: Bahnschrift;
+}
+
+
+.title-s{
+    font-family: Gadugi;
+}
+
+.title-a {
+    font-size: 2.5rem;
+}
+
+.s-description, .lead, .desc, .post-date, .card-description, .copyright, .credits{
+    font-family: Calibri;
+}
+
+.subtitle-a {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+
+/*! Modification intro */
+.intro .overlay-itro{
+    background-color: #000000db;
+}
+
+
+/*! Modification body */
+.paralax-mf{
+    padding: 5rem 0;
+}
+
+.socials{
+    padding-left: 10px;
+}
+
+
+/*! Modification timeline */
+.time{
+    background: #0078ff;
+}
+
+.timeline .hexa{
+    background: #0078ff;
+}
+
+.timeline .hexa:before{
+    border-bottom: 4px solid #0078ff;
+}
+
+.timeline .hexa:after{
+    border-top: 4px solid #0078ff;
+}
+
+.direction-l .time{
+    background: #0078ff;
+}
+
+.direction-r .time{
+    background: #800000;
+}
+
+
+.direction-l .timeline .hexa:before{
+    background: #0078ff;
+}
+
+.dir-r .timeline .hexa:before{
+    background: #00ffb8;
+}
+
+
+/*! Modification footer */
+.footer-paralax{
+    padding: 0rem 0;
+}
+
+
+
+/*! Modification Responsive */
+@media screen and (max-width: 991px) {
+	.card {
+		margin-bottom: 40px;
+	}
+}
